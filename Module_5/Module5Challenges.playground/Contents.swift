@@ -221,3 +221,12 @@ print("")
 print("")
 
 
+struct Circle {
+     var radius = 0.0
+     var x = 0.0
+     var y = 0.0
+}
+
+// Given the struct Circle, create an instance with a radius of 5.0, and a position of x = 2.3 and y = 7.1
+let circle = Circle(radius: 5.0, x: 2.3, y: 7.1)
+

@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496AD1A02BD2284D00C94D14 /* Photos_Codable_and_JSON_DecodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AD19F2BD2284D00C94D14 /* Photos_Codable_and_JSON_DecodingApp.swift */; };
+		496AD1A22BD2284D00C94D14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AD1A12BD2284D00C94D14 /* ContentView.swift */; };
+		496AD1A42BD2284F00C94D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1A32BD2284F00C94D14 /* Assets.xcassets */; };
+		496AD1A72BD2284F00C94D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1A62BD2284F00C94D14 /* Preview Assets.xcassets */; };
+		496AD1B12BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AD1B02BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingTests.swift */; };
+		496AD1BB2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AD1BA2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITests.swift */; };
+		496AD1BD2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AD1BC2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITestsLaunchTests.swift */; };
+		496AD1F52BD22AB500C94D14 /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1CB2BD22AB500C94D14 /* photos.json */; };
+		496AD1F62BD22AB500C94D14 /* Photo0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1CC2BD22AB500C94D14 /* Photo0.jpg */; };
+		496AD1F72BD22AB500C94D14 /* Photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1CD2BD22AB500C94D14 /* Photo1.jpg */; };
+		496AD1F82BD22AB500C94D14 /* Photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1CE2BD22AB500C94D14 /* Photo2.jpg */; };
+		496AD1F92BD22AB500C94D14 /* Photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1CF2BD22AB500C94D14 /* Photo3.jpg */; };
+		496AD1FA2BD22AB500C94D14 /* Photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D02BD22AB500C94D14 /* Photo4.jpg */; };
+		496AD1FB2BD22AB500C94D14 /* Photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D12BD22AB500C94D14 /* Photo5.jpg */; };
+		496AD1FC2BD22AB500C94D14 /* Photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D22BD22AB500C94D14 /* Photo6.jpg */; };
+		496AD1FD2BD22AB500C94D14 /* Photo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D32BD22AB500C94D14 /* Photo7.jpg */; };
+		496AD1FE2BD22AB500C94D14 /* Photo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D42BD22AB500C94D14 /* Photo8.jpg */; };
+		496AD1FF2BD22AB500C94D14 /* Photo9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D52BD22AB500C94D14 /* Photo9.jpg */; };
+		496AD2002BD22AB500C94D14 /* Photo10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D62BD22AB500C94D14 /* Photo10.jpg */; };
+		496AD2012BD22AB500C94D14 /* Photo11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D72BD22AB500C94D14 /* Photo11.jpg */; };
+		496AD2022BD22AB500C94D14 /* Photo12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D82BD22AB500C94D14 /* Photo12.jpg */; };
+		496AD2032BD22AB500C94D14 /* Photo13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1D92BD22AB500C94D14 /* Photo13.jpg */; };
+		496AD2042BD22AB500C94D14 /* Photo14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1DA2BD22AB500C94D14 /* Photo14.jpg */; };
+		496AD2052BD22AB500C94D14 /* Photo15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1DB2BD22AB500C94D14 /* Photo15.jpg */; };
+		496AD2062BD22AB500C94D14 /* Photo16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1DC2BD22AB500C94D14 /* Photo16.jpg */; };
+		496AD2072BD22AB500C94D14 /* Photo17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1DD2BD22AB500C94D14 /* Photo17.jpg */; };
+		496AD2082BD22AB500C94D14 /* Photo18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1DE2BD22AB500C94D14 /* Photo18.jpg */; };
+		496AD2092BD22AB500C94D14 /* Photo19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1DF2BD22AB500C94D14 /* Photo19.jpg */; };
+		496AD20A2BD22AB500C94D14 /* Photo20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E02BD22AB500C94D14 /* Photo20.jpg */; };
+		496AD20B2BD22AB500C94D14 /* Photo21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E12BD22AB500C94D14 /* Photo21.jpg */; };
+		496AD20C2BD22AB500C94D14 /* Photo22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E22BD22AB500C94D14 /* Photo22.jpg */; };
+		496AD20D2BD22AB500C94D14 /* Photo23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E32BD22AB500C94D14 /* Photo23.jpg */; };
+		496AD20E2BD22AB500C94D14 /* Photo24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E42BD22AB500C94D14 /* Photo24.jpg */; };
+		496AD20F2BD22AB500C94D14 /* Photo25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E52BD22AB500C94D14 /* Photo25.jpg */; };
+		496AD2102BD22AB500C94D14 /* Photo26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E62BD22AB500C94D14 /* Photo26.jpg */; };
+		496AD2112BD22AB500C94D14 /* Photo27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E72BD22AB500C94D14 /* Photo27.jpg */; };
+		496AD2122BD22AB500C94D14 /* Photo28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E82BD22AB500C94D14 /* Photo28.jpg */; };
+		496AD2132BD22AB500C94D14 /* Photo29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1E92BD22AB500C94D14 /* Photo29.jpg */; };
+		496AD2142BD22AB500C94D14 /* Photo30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1EA2BD22AB500C94D14 /* Photo30.jpg */; };
+		496AD2152BD22AB500C94D14 /* Photo31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1EB2BD22AB500C94D14 /* Photo31.jpg */; };
+		496AD2162BD22AB500C94D14 /* Photo32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1EC2BD22AB500C94D14 /* Photo32.jpg */; };
+		496AD2172BD22AB500C94D14 /* Photo33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1ED2BD22AB500C94D14 /* Photo33.jpg */; };
+		496AD2182BD22AB500C94D14 /* Photo34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1EE2BD22AB500C94D14 /* Photo34.jpg */; };
+		496AD2192BD22AB500C94D14 /* Photo35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1EF2BD22AB500C94D14 /* Photo35.jpg */; };
+		496AD21A2BD22AB500C94D14 /* Photo36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1F02BD22AB500C94D14 /* Photo36.jpg */; };
+		496AD21B2BD22AB500C94D14 /* Photo37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1F12BD22AB500C94D14 /* Photo37.jpg */; };
+		496AD21C2BD22AB500C94D14 /* Photo38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1F22BD22AB500C94D14 /* Photo38.jpg */; };
+		496AD21D2BD22AB500C94D14 /* Photo39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 496AD1F32BD22AB500C94D14 /* Photo39.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496AD1AD2BD2284F00C94D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496AD1942BD2284D00C94D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496AD19B2BD2284D00C94D14;
+			remoteInfo = "Photos Codable and JSON Decoding";
+		};
+		496AD1B72BD2284F00C94D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496AD1942BD2284D00C94D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496AD19B2BD2284D00C94D14;
+			remoteInfo = "Photos Codable and JSON Decoding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496AD19C2BD2284D00C94D14 /* Photos Codable and JSON Decoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photos Codable and JSON Decoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496AD19F2BD2284D00C94D14 /* Photos_Codable_and_JSON_DecodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_Codable_and_JSON_DecodingApp.swift; sourceTree = "<group>"; };
+		496AD1A12BD2284D00C94D14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		496AD1A32BD2284F00C94D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496AD1A62BD2284F00C94D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		496AD1AC2BD2284F00C94D14 /* Photos Codable and JSON DecodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photos Codable and JSON DecodingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496AD1B02BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_Codable_and_JSON_DecodingTests.swift; sourceTree = "<group>"; };
+		496AD1B62BD2284F00C94D14 /* Photos Codable and JSON DecodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photos Codable and JSON DecodingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496AD1BA2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_Codable_and_JSON_DecodingUITests.swift; sourceTree = "<group>"; };
+		496AD1BC2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos_Codable_and_JSON_DecodingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		496AD1CB2BD22AB500C94D14 /* photos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photos.json; sourceTree = "<group>"; };
+		496AD1CC2BD22AB500C94D14 /* Photo0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo0.jpg; sourceTree = "<group>"; };
+		496AD1CD2BD22AB500C94D14 /* Photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo1.jpg; sourceTree = "<group>"; };
+		496AD1CE2BD22AB500C94D14 /* Photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo2.jpg; sourceTree = "<group>"; };
+		496AD1CF2BD22AB500C94D14 /* Photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo3.jpg; sourceTree = "<group>"; };
+		496AD1D02BD22AB500C94D14 /* Photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo4.jpg; sourceTree = "<group>"; };
+		496AD1D12BD22AB500C94D14 /* Photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo5.jpg; sourceTree = "<group>"; };
+		496AD1D22BD22AB500C94D14 /* Photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo6.jpg; sourceTree = "<group>"; };
+		496AD1D32BD22AB500C94D14 /* Photo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo7.jpg; sourceTree = "<group>"; };
+		496AD1D42BD22AB500C94D14 /* Photo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo8.jpg; sourceTree = "<group>"; };
+		496AD1D52BD22AB500C94D14 /* Photo9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo9.jpg; sourceTree = "<group>"; };
+		496AD1D62BD22AB500C94D14 /* Photo10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo10.jpg; sourceTree = "<group>"; };
+		496AD1D72BD22AB500C94D14 /* Photo11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo11.jpg; sourceTree = "<group>"; };
+		496AD1D82BD22AB500C94D14 /* Photo12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo12.jpg; sourceTree = "<group>"; };
+		496AD1D92BD22AB500C94D14 /* Photo13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo13.jpg; sourceTree = "<group>"; };
+		496AD1DA2BD22AB500C94D14 /* Photo14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo14.jpg; sourceTree = "<group>"; };
+		496AD1DB2BD22AB500C94D14 /* Photo15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo15.jpg; sourceTree = "<group>"; };
+		496AD1DC2BD22AB500C94D14 /* Photo16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo16.jpg; sourceTree = "<group>"; };
+		496AD1DD2BD22AB500C94D14 /* Photo17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo17.jpg; sourceTree = "<group>"; };
+		496AD1DE2BD22AB500C94D14 /* Photo18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo18.jpg; sourceTree = "<group>"; };
+		496AD1DF2BD22AB500C94D14 /* Photo19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo19.jpg; sourceTree = "<group>"; };
+		496AD1E02BD22AB500C94D14 /* Photo20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo20.jpg; sourceTree = "<group>"; };
+		496AD1E12BD22AB500C94D14 /* Photo21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo21.jpg; sourceTree = "<group>"; };
+		496AD1E22BD22AB500C94D14 /* Photo22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo22.jpg; sourceTree = "<group>"; };
+		496AD1E32BD22AB500C94D14 /* Photo23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo23.jpg; sourceTree = "<group>"; };
+		496AD1E42BD22AB500C94D14 /* Photo24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo24.jpg; sourceTree = "<group>"; };
+		496AD1E52BD22AB500C94D14 /* Photo25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo25.jpg; sourceTree = "<group>"; };
+		496AD1E62BD22AB500C94D14 /* Photo26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo26.jpg; sourceTree = "<group>"; };
+		496AD1E72BD22AB500C94D14 /* Photo27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo27.jpg; sourceTree = "<group>"; };
+		496AD1E82BD22AB500C94D14 /* Photo28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo28.jpg; sourceTree = "<group>"; };
+		496AD1E92BD22AB500C94D14 /* Photo29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo29.jpg; sourceTree = "<group>"; };
+		496AD1EA2BD22AB500C94D14 /* Photo30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo30.jpg; sourceTree = "<group>"; };
+		496AD1EB2BD22AB500C94D14 /* Photo31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo31.jpg; sourceTree = "<group>"; };
+		496AD1EC2BD22AB500C94D14 /* Photo32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo32.jpg; sourceTree = "<group>"; };
+		496AD1ED2BD22AB500C94D14 /* Photo33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo33.jpg; sourceTree = "<group>"; };
+		496AD1EE2BD22AB500C94D14 /* Photo34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo34.jpg; sourceTree = "<group>"; };
+		496AD1EF2BD22AB500C94D14 /* Photo35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo35.jpg; sourceTree = "<group>"; };
+		496AD1F02BD22AB500C94D14 /* Photo36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo36.jpg; sourceTree = "<group>"; };
+		496AD1F12BD22AB500C94D14 /* Photo37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo37.jpg; sourceTree = "<group>"; };
+		496AD1F22BD22AB500C94D14 /* Photo38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo38.jpg; sourceTree = "<group>"; };
+		496AD1F32BD22AB500C94D14 /* Photo39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo39.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496AD1992BD2284D00C94D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496AD1A92BD2284F00C94D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496AD1B32BD2284F00C94D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496AD1932BD2284D00C94D14 = {
+			isa = PBXGroup;
+			children = (
+				496AD19E2BD2284D00C94D14 /* Photos Codable and JSON Decoding */,
+				496AD1AF2BD2284F00C94D14 /* Photos Codable and JSON DecodingTests */,
+				496AD1B92BD2284F00C94D14 /* Photos Codable and JSON DecodingUITests */,
+				496AD19D2BD2284D00C94D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496AD19D2BD2284D00C94D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496AD19C2BD2284D00C94D14 /* Photos Codable and JSON Decoding.app */,
+				496AD1AC2BD2284F00C94D14 /* Photos Codable and JSON DecodingTests.xctest */,
+				496AD1B62BD2284F00C94D14 /* Photos Codable and JSON DecodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496AD19E2BD2284D00C94D14 /* Photos Codable and JSON Decoding */ = {
+			isa = PBXGroup;
+			children = (
+				496AD1CB2BD22AB500C94D14 /* photos.json */,
+				496AD1F42BD22AB500C94D14 /* photos */,
+				496AD19F2BD2284D00C94D14 /* Photos_Codable_and_JSON_DecodingApp.swift */,
+				496AD1A12BD2284D00C94D14 /* ContentView.swift */,
+				496AD1A32BD2284F00C94D14 /* Assets.xcassets */,
+				496AD1A52BD2284F00C94D14 /* Preview Content */,
+			);
+			path = "Photos Codable and JSON Decoding";
+			sourceTree = "<group>";
+		};
+		496AD1A52BD2284F00C94D14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				496AD1A62BD2284F00C94D14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		496AD1AF2BD2284F00C94D14 /* Photos Codable and JSON DecodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				496AD1B02BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingTests.swift */,
+			);
+			path = "Photos Codable and JSON DecodingTests";
+			sourceTree = "<group>";
+		};
+		496AD1B92BD2284F00C94D14 /* Photos Codable and JSON DecodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				496AD1BA2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITests.swift */,
+				496AD1BC2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITestsLaunchTests.swift */,
+			);
+			path = "Photos Codable and JSON DecodingUITests";
+			sourceTree = "<group>";
+		};
+		496AD1F42BD22AB500C94D14 /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				496AD1CC2BD22AB500C94D14 /* Photo0.jpg */,
+				496AD1CD2BD22AB500C94D14 /* Photo1.jpg */,
+				496AD1CE2BD22AB500C94D14 /* Photo2.jpg */,
+				496AD1CF2BD22AB500C94D14 /* Photo3.jpg */,
+				496AD1D02BD22AB500C94D14 /* Photo4.jpg */,
+				496AD1D12BD22AB500C94D14 /* Photo5.jpg */,
+				496AD1D22BD22AB500C94D14 /* Photo6.jpg */,
+				496AD1D32BD22AB500C94D14 /* Photo7.jpg */,
+				496AD1D42BD22AB500C94D14 /* Photo8.jpg */,
+				496AD1D52BD22AB500C94D14 /* Photo9.jpg */,
+				496AD1D62BD22AB500C94D14 /* Photo10.jpg */,
+				496AD1D72BD22AB500C94D14 /* Photo11.jpg */,
+				496AD1D82BD22AB500C94D14 /* Photo12.jpg */,
+				496AD1D92BD22AB500C94D14 /* Photo13.jpg */,
+				496AD1DA2BD22AB500C94D14 /* Photo14.jpg */,
+				496AD1DB2BD22AB500C94D14 /* Photo15.jpg */,
+				496AD1DC2BD22AB500C94D14 /* Photo16.jpg */,
+				496AD1DD2BD22AB500C94D14 /* Photo17.jpg */,
+				496AD1DE2BD22AB500C94D14 /* Photo18.jpg */,
+				496AD1DF2BD22AB500C94D14 /* Photo19.jpg */,
+				496AD1E02BD22AB500C94D14 /* Photo20.jpg */,
+				496AD1E12BD22AB500C94D14 /* Photo21.jpg */,
+				496AD1E22BD22AB500C94D14 /* Photo22.jpg */,
+				496AD1E32BD22AB500C94D14 /* Photo23.jpg */,
+				496AD1E42BD22AB500C94D14 /* Photo24.jpg */,
+				496AD1E52BD22AB500C94D14 /* Photo25.jpg */,
+				496AD1E62BD22AB500C94D14 /* Photo26.jpg */,
+				496AD1E72BD22AB500C94D14 /* Photo27.jpg */,
+				496AD1E82BD22AB500C94D14 /* Photo28.jpg */,
+				496AD1E92BD22AB500C94D14 /* Photo29.jpg */,
+				496AD1EA2BD22AB500C94D14 /* Photo30.jpg */,
+				496AD1EB2BD22AB500C94D14 /* Photo31.jpg */,
+				496AD1EC2BD22AB500C94D14 /* Photo32.jpg */,
+				496AD1ED2BD22AB500C94D14 /* Photo33.jpg */,
+				496AD1EE2BD22AB500C94D14 /* Photo34.jpg */,
+				496AD1EF2BD22AB500C94D14 /* Photo35.jpg */,
+				496AD1F02BD22AB500C94D14 /* Photo36.jpg */,
+				496AD1F12BD22AB500C94D14 /* Photo37.jpg */,
+				496AD1F22BD22AB500C94D14 /* Photo38.jpg */,
+				496AD1F32BD22AB500C94D14 /* Photo39.jpg */,
+			);
+			path = photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496AD19B2BD2284D00C94D14 /* Photos Codable and JSON Decoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496AD1C02BD2284F00C94D14 /* Build configuration list for PBXNativeTarget "Photos Codable and JSON Decoding" */;
+			buildPhases = (
+				496AD1982BD2284D00C94D14 /* Sources */,
+				496AD1992BD2284D00C94D14 /* Frameworks */,
+				496AD19A2BD2284D00C94D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photos Codable and JSON Decoding";
+			productName = "Photos Codable and JSON Decoding";
+			productReference = 496AD19C2BD2284D00C94D14 /* Photos Codable and JSON Decoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496AD1AB2BD2284F00C94D14 /* Photos Codable and JSON DecodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496AD1C32BD2284F00C94D14 /* Build configuration list for PBXNativeTarget "Photos Codable and JSON DecodingTests" */;
+			buildPhases = (
+				496AD1A82BD2284F00C94D14 /* Sources */,
+				496AD1A92BD2284F00C94D14 /* Frameworks */,
+				496AD1AA2BD2284F00C94D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496AD1AE2BD2284F00C94D14 /* PBXTargetDependency */,
+			);
+			name = "Photos Codable and JSON DecodingTests";
+			productName = "Photos Codable and JSON DecodingTests";
+			productReference = 496AD1AC2BD2284F00C94D14 /* Photos Codable and JSON DecodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		496AD1B52BD2284F00C94D14 /* Photos Codable and JSON DecodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496AD1C62BD2284F00C94D14 /* Build configuration list for PBXNativeTarget "Photos Codable and JSON DecodingUITests" */;
+			buildPhases = (
+				496AD1B22BD2284F00C94D14 /* Sources */,
+				496AD1B32BD2284F00C94D14 /* Frameworks */,
+				496AD1B42BD2284F00C94D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496AD1B82BD2284F00C94D14 /* PBXTargetDependency */,
+			);
+			name = "Photos Codable and JSON DecodingUITests";
+			productName = "Photos Codable and JSON DecodingUITests";
+			productReference = 496AD1B62BD2284F00C94D14 /* Photos Codable and JSON DecodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496AD1942BD2284D00C94D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					496AD19B2BD2284D00C94D14 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					496AD1AB2BD2284F00C94D14 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 496AD19B2BD2284D00C94D14;
+					};
+					496AD1B52BD2284F00C94D14 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 496AD19B2BD2284D00C94D14;
+					};
+				};
+			};
+			buildConfigurationList = 496AD1972BD2284D00C94D14 /* Build configuration list for PBXProject "Photos Codable and JSON Decoding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496AD1932BD2284D00C94D14;
+			productRefGroup = 496AD19D2BD2284D00C94D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496AD19B2BD2284D00C94D14 /* Photos Codable and JSON Decoding */,
+				496AD1AB2BD2284F00C94D14 /* Photos Codable and JSON DecodingTests */,
+				496AD1B52BD2284F00C94D14 /* Photos Codable and JSON DecodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496AD19A2BD2284D00C94D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496AD2102BD22AB500C94D14 /* Photo26.jpg in Resources */,
+				496AD2172BD22AB500C94D14 /* Photo33.jpg in Resources */,
+				496AD1F52BD22AB500C94D14 /* photos.json in Resources */,
+				496AD2002BD22AB500C94D14 /* Photo10.jpg in Resources */,
+				496AD1A72BD2284F00C94D14 /* Preview Assets.xcassets in Resources */,
+				496AD2042BD22AB500C94D14 /* Photo14.jpg in Resources */,
+				496AD20C2BD22AB500C94D14 /* Photo22.jpg in Resources */,
+				496AD2092BD22AB500C94D14 /* Photo19.jpg in Resources */,
+				496AD2142BD22AB500C94D14 /* Photo30.jpg in Resources */,
+				496AD20F2BD22AB500C94D14 /* Photo25.jpg in Resources */,
+				496AD20B2BD22AB500C94D14 /* Photo21.jpg in Resources */,
+				496AD2132BD22AB500C94D14 /* Photo29.jpg in Resources */,
+				496AD1FD2BD22AB500C94D14 /* Photo7.jpg in Resources */,
+				496AD21A2BD22AB500C94D14 /* Photo36.jpg in Resources */,
+				496AD20A2BD22AB500C94D14 /* Photo20.jpg in Resources */,
+				496AD2152BD22AB500C94D14 /* Photo31.jpg in Resources */,
+				496AD2112BD22AB500C94D14 /* Photo27.jpg in Resources */,
+				496AD1FB2BD22AB500C94D14 /* Photo5.jpg in Resources */,
+				496AD1A42BD2284F00C94D14 /* Assets.xcassets in Resources */,
+				496AD2122BD22AB500C94D14 /* Photo28.jpg in Resources */,
+				496AD21B2BD22AB500C94D14 /* Photo37.jpg in Resources */,
+				496AD2062BD22AB500C94D14 /* Photo16.jpg in Resources */,
+				496AD1F62BD22AB500C94D14 /* Photo0.jpg in Resources */,
+				496AD2022BD22AB500C94D14 /* Photo12.jpg in Resources */,
+				496AD20E2BD22AB500C94D14 /* Photo24.jpg in Resources */,
+				496AD1F72BD22AB500C94D14 /* Photo1.jpg in Resources */,
+				496AD1F92BD22AB500C94D14 /* Photo3.jpg in Resources */,
+				496AD21C2BD22AB500C94D14 /* Photo38.jpg in Resources */,
+				496AD1F82BD22AB500C94D14 /* Photo2.jpg in Resources */,
+				496AD1FA2BD22AB500C94D14 /* Photo4.jpg in Resources */,
+				496AD20D2BD22AB500C94D14 /* Photo23.jpg in Resources */,
+				496AD1FC2BD22AB500C94D14 /* Photo6.jpg in Resources */,
+				496AD2072BD22AB500C94D14 /* Photo17.jpg in Resources */,
+				496AD21D2BD22AB500C94D14 /* Photo39.jpg in Resources */,
+				496AD2192BD22AB500C94D14 /* Photo35.jpg in Resources */,
+				496AD2052BD22AB500C94D14 /* Photo15.jpg in Resources */,
+				496AD2012BD22AB500C94D14 /* Photo11.jpg in Resources */,
+				496AD1FE2BD22AB500C94D14 /* Photo8.jpg in Resources */,
+				496AD2182BD22AB500C94D14 /* Photo34.jpg in Resources */,
+				496AD2082BD22AB500C94D14 /* Photo18.jpg in Resources */,
+				496AD2162BD22AB500C94D14 /* Photo32.jpg in Resources */,
+				496AD1FF2BD22AB500C94D14 /* Photo9.jpg in Resources */,
+				496AD2032BD22AB500C94D14 /* Photo13.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496AD1AA2BD2284F00C94D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496AD1B42BD2284F00C94D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496AD1982BD2284D00C94D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496AD1A22BD2284D00C94D14 /* ContentView.swift in Sources */,
+				496AD1A02BD2284D00C94D14 /* Photos_Codable_and_JSON_DecodingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496AD1A82BD2284F00C94D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496AD1B12BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496AD1B22BD2284F00C94D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496AD1BB2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITests.swift in Sources */,
+				496AD1BD2BD2284F00C94D14 /* Photos_Codable_and_JSON_DecodingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496AD1AE2BD2284F00C94D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496AD19B2BD2284D00C94D14 /* Photos Codable and JSON Decoding */;
+			targetProxy = 496AD1AD2BD2284F00C94D14 /* PBXContainerItemProxy */;
+		};
+		496AD1B82BD2284F00C94D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496AD19B2BD2284D00C94D14 /* Photos Codable and JSON Decoding */;
+			targetProxy = 496AD1B72BD2284F00C94D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		496AD1BE2BD2284F00C94D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		496AD1BF2BD2284F00C94D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496AD1C12BD2284F00C94D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Photos Codable and JSON Decoding/Preview Content\"";
+				DEVELOPMENT_TEAM = M7C448YANA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.andrewkim.Photos-Codable-and-JSON-Decoding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		496AD1C22BD2284F00C94D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Photos Codable and JSON Decoding/Preview Content\"";
+				DEVELOPMENT_TEAM = M7C448YANA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.andrewkim.Photos-Codable-and-JSON-Decoding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		496AD1C42BD2284F00C94D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7C448YANA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.andrewkim.Photos-Codable-and-JSON-DecodingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photos Codable and JSON Decoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Photos Codable and JSON Decoding";
+			};
+			name = Debug;
+		};
+		496AD1C52BD2284F00C94D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7C448YANA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.andrewkim.Photos-Codable-and-JSON-DecodingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photos Codable and JSON Decoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Photos Codable and JSON Decoding";
+			};
+			name = Release;
+		};
+		496AD1C72BD2284F00C94D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7C448YANA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.andrewkim.Photos-Codable-and-JSON-DecodingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photos Codable and JSON Decoding";
+			};
+			name = Debug;
+		};
+		496AD1C82BD2284F00C94D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7C448YANA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.andrewkim.Photos-Codable-and-JSON-DecodingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photos Codable and JSON Decoding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496AD1972BD2284D00C94D14 /* Build configuration list for PBXProject "Photos Codable and JSON Decoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496AD1BE2BD2284F00C94D14 /* Debug */,
+				496AD1BF2BD2284F00C94D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496AD1C02BD2284F00C94D14 /* Build configuration list for PBXNativeTarget "Photos Codable and JSON Decoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496AD1C12BD2284F00C94D14 /* Debug */,
+				496AD1C22BD2284F00C94D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496AD1C32BD2284F00C94D14 /* Build configuration list for PBXNativeTarget "Photos Codable and JSON DecodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496AD1C42BD2284F00C94D14 /* Debug */,
+				496AD1C52BD2284F00C94D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496AD1C62BD2284F00C94D14 /* Build configuration list for PBXNativeTarget "Photos Codable and JSON DecodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496AD1C72BD2284F00C94D14 /* Debug */,
+				496AD1C82BD2284F00C94D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496AD1942BD2284D00C94D14 /* Project object */;
+}

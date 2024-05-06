@@ -17,7 +17,7 @@ struct ContentView: View {
             Text("Tic-Tac-Toe")
                 .font(.title)
                 .padding()
-            Text(winner == "" ? "Current Player: \(currentPlayer)" : "Winner: \(winner)")
+            Text(winner == "" ? "Current Player: \(currentPlayer)" : (winner == "Tie" ? "It's a Tie!" : "Winner: \(winner)"))
                 .padding()
 
             ForEach(0..<3) { row in
@@ -68,6 +68,11 @@ struct ContentView: View {
         if board[0][2] != "" && board[0][2] == board[1][1] && board[1][1] == board[2][0] {
             winner = board[0][2]
             return
+        }
+
+        // Check for a tie
+        if !board.joined().contains("") {
+            winner = "Tie"
         }
     }
 

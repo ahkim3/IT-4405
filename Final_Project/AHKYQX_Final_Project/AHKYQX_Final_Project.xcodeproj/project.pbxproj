@@ -14,6 +14,7 @@
 		49D2BF682BE87E7B0076C23D /* AHKYQX_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2BF672BE87E7B0076C23D /* AHKYQX_Final_ProjectTests.swift */; };
 		49D2BF722BE87E7B0076C23D /* AHKYQX_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2BF712BE87E7B0076C23D /* AHKYQX_Final_ProjectUITests.swift */; };
 		49D2BF742BE87E7B0076C23D /* AHKYQX_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2BF732BE87E7B0076C23D /* AHKYQX_Final_ProjectUITestsLaunchTests.swift */; };
+		49D2BF812BE896A30076C23D /* SinglePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2BF802BE896A30076C23D /* SinglePlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		49D2BF6D2BE87E7B0076C23D /* AHKYQX_Final_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHKYQX_Final_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D2BF712BE87E7B0076C23D /* AHKYQX_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHKYQX_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		49D2BF732BE87E7B0076C23D /* AHKYQX_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHKYQX_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49D2BF802BE896A30076C23D /* SinglePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				49D2BF582BE87E790076C23D /* ContentView.swift */,
 				49D2BF5A2BE87E7B0076C23D /* Assets.xcassets */,
 				49D2BF5C2BE87E7B0076C23D /* Preview Content */,
+				49D2BF802BE896A30076C23D /* SinglePlayerView.swift */,
 			);
 			path = AHKYQX_Final_Project;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D2BF592BE87E790076C23D /* ContentView.swift in Sources */,
+				49D2BF812BE896A30076C23D /* SinglePlayerView.swift in Sources */,
 				49D2BF572BE87E790076C23D /* AHKYQX_Final_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SinglePlayerView.swift
 //  AHKYQX_Final_Project
 //
 //  Created by Andrew Kim on 5/5/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SinglePlayerView: View {
     @State private var board = Array(repeating: Array(repeating: "", count: 3), count: 3)
     @State private var currentPlayer = "X"
     @State private var winner = ""
@@ -17,7 +17,7 @@ struct ContentView: View {
             VStack {
                 Text("Tic-Tac-Toe")
                     .font(.title)
-                Text("Multiplayer Mode")
+                Text("Singleplayer Mode")
                     .font(.callout)
                     .padding()
                     .background(Color.green)
@@ -35,6 +35,11 @@ struct ContentView: View {
                                 if board[row][col] == "" && winner == "" {
                                     board[row][col] = currentPlayer
                                     checkWinner()
+                                    // Switch to computer's turn after human plays
+                                    if winner == "" {
+                                        computerTurn()
+                                        currentPlayer = currentPlayer == "X" ? "O" : "X"
+                                    }
                                     currentPlayer = currentPlayer == "X" ? "O" : "X"
                                 }
                             }) {
@@ -50,19 +55,9 @@ struct ContentView: View {
                 }
                 .padding()
 
+
                 Button("Reset") {
                     resetGame()
-                }
-                .padding()
-
-                // Button to change to Singleplayer view
-                NavigationLink(destination: SinglePlayerView()) {
-                    Text("Click for Singleplayer Mode")
-                        .font(.footnote)
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
                 }
                 .padding()
             }
@@ -103,8 +98,27 @@ struct ContentView: View {
         currentPlayer = "X"
         winner = ""
     }
+
+    func computerTurn() {
+        var emptySpots: [(Int, Int)] = []
+        for row in 0..<3 {
+            for col in 0..<3 {
+                if board[row][col] == "" {
+                    emptySpots.append((row, col))
+                }
+            }
+        }
+
+        if !emptySpots.isEmpty {
+            let randomIndex = Int.random(in: 0..<emptySpots.count)
+            let (row, col) = emptySpots[randomIndex]
+            board[row][col] = "O" // Computer plays as 'O'
+            checkWinner() // Check if the computer has won
+        }
+    }
 }
 
+
 #Preview {
-    ContentView()
+    SinglePlayerView()
 }
